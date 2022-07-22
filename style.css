@@ -1,0 +1,38 @@
+body
+{
+    background-color: yellow;
+}
+
+h1
+{
+
+    color: blue;
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float:right
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: Namish;
+    animation-duration: 4s;
+    margin-top: 25px;
+    animation-iteration-count: infinite;
+}
+@keyframes Namish {
+    from {box-shadow: 1px 1px 38px lightgreen;}
+    to{box-shadow: 1px 1px 38px red;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+
+    
+}
